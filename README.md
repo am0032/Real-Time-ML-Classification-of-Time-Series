@@ -6,7 +6,9 @@ If the trained model also can distnguish period doubling etc then it should also
 
 To utilize the program, you simply need to convert input voltages to a range of 0-5 volts and input them into the A0 pin of an Arduino, which can then be connected to a laptop. The user interface will prompt the user to select a pre-trained model, and subsequently one can use the buttons provided to make the prediction.  
 
-![image](https://github.com/am0032/Real-Time-ML-Classification-of-Time-Series/assets/123314532/316bbc24-763c-43d8-8eb1-3ebc171479d4)
+![image](https://github.com/am0032/Real-Time-ML-Classification-of-Time-Series/assets/123314532/ec000a14-7d54-467c-8e0c-a12405b738e1)  
+
+![image](https://github.com/am0032/Real-Time-ML-Classification-of-Time-Series/assets/123314532/316bbc24-763c-43d8-8eb1-3ebc171479d4)  
 
    
  
