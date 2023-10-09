@@ -27,7 +27,7 @@ Instructions on how to install the project.
 
 
 ## Using-Python    
-1) Download the Python main file.    
+1) Download the Python main file and Arduino file.   
 
 2) Install Python from - https://www.python.org/downloads/   
     Tick the button saying add Python to path in the installation window for Python installation.  
@@ -45,7 +45,9 @@ Please copy the commands below (using top right icon below), paste (right click 
 pip install pyserial matplotlib scikit-learn numpy scipy pyrqa joblib kneed pandas python-igraph
 
 ```
-4) Once the libraries are installed double click on the downloaded python file  to run the program.  
+4) Install Arduino IDE from : https://www.arduino.cc/en/software   
+5) Open Arduino software and load the Arduino file downloaded and then select the COM port in tools and hit upload.    
+6) Once the libraries are installed double click on the downloaded python file  to run the program.    
 
 
 ## Usage   
