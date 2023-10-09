@@ -12,7 +12,7 @@ To utilize the program, you simply need to convert input voltages to a range of 
 ## Table of Contents
 - [Installation](#Installation)
   - [Using-Python](#Using-Python)
-- [UI-Guide and WorkFLow](#UI-Guide)
+- [Usage](#Usage)
 - [Issues](#issues)
 - [License](#licensing)
 
@@ -44,7 +44,7 @@ Please copy the commands below (using top right icon below), paste (right click 
 4) Once the libraries are installed double click on the downloaded python file  to run the program.  
 
 
-## UI-Guide  
+## Usage  
 
 
 
