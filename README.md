@@ -54,6 +54,9 @@ pip install pyserial matplotlib scikit-learn numpy scipy pyrqa joblib kneed pand
 Connect Arduino to laptop and connect A0 pin of Arduino to the source signal  
 ![image](https://github.com/am0032/Real-Time-ML-Classification-of-Time-Series/assets/123314532/a0684b34-be8b-4fbf-afa9-b788254284da)  
 
+Run the python code and then log the time series you want to make predictions using the buttons given (start, stop, and predict).
+
+
 
 
 
