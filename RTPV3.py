@@ -31,7 +31,7 @@ x = []
 
 # Function to start and stop logging
 def toggle_logging():
-    global logging, x
+    global logging, x,data_frames
     if logging:
         logging = False
         log_button.config(text="Start Logging")
@@ -39,6 +39,8 @@ def toggle_logging():
         logging = True
         log_button.config(text="Stop Logging")
         x = []  # Reset the x array when starting logging again
+        data_frames = []
+
 
 # Function to read data from Arduino and update the plot
 def update_plot():
@@ -72,11 +74,12 @@ def update_plot():
 # Create a MinMaxScaler object
 scaler = MinMaxScaler()
 
-# Create a list to store the file names
-file_names = []
 
 # Create an empty list to store DataFrames for each file
 data_frames = []
+
+RQA_NETWORK_data = pd.DataFrame(columns=['Recurrence Rate', 'Determinism', 'Laminarity','average path length', 'Clustering Coefficient',
+                                         'Diagonal Line Entropy'])
 
 # Load the machine learning model
 model_path = filedialog.askopenfilename(
@@ -221,9 +224,9 @@ def calculate_avg_mutual_info():
         result2 = computation.run()
     
         
-        filename = 'recurrence_plot.png'  # Include param_type in the filename
-        full_file_path = os.path.join(model_path, filename)
-        ImageGenerator.save_recurrence_plot(result2.recurrence_matrix_reverse, full_file_path)
+        #filename = 'recurrence_plot.png'  # Include param_type in the filename
+        #full_file_path = os.path.join(model_path, filename)
+        #ImageGenerator.save_recurrence_plot(result2.recurrence_matrix_reverse, full_file_path)
 
         # result is the output of RecurrencePlotComputation
         L = result2.recurrence_matrix_reverse[::-1]
@@ -293,7 +296,7 @@ root.title("Timseries Oscilloscope and predictor")
 
 
 # Create a Matplotlib figure and canvas
-fig, ax = plt.subplots(figsize=(6, 10))
+fig, ax = plt.subplots(figsize=(6, 8))
 canvas = FigureCanvasTkAgg(fig, master=root)
 canvas.get_tk_widget().pack()
 baud_rate=9600
