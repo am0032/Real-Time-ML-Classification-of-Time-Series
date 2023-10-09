@@ -24,7 +24,7 @@ Instructions on how to install the project.
 
 
 ## Using-Python    
-1) Download the Python main (RLV45) file.    
+1) Download the Python main file.    
 
 2) Install Python from - https://www.python.org/downloads/   
     Tick the button saying add Python to path in the installation window for Python installation.  
@@ -39,30 +39,14 @@ Instructions on how to install the project.
 Please copy the commands below (using top right icon below), paste (right click ) them into Windows  command prompt window, and run (Enter) them to install the necessary dependencies :  
 
 ```bash
-pip install matplotlib
-pip install pandas
-pip install scikit-learn
-pip install python-igraph
-pip install igraph
-pip install PyRQA
-pip install matplotlib
-pip install pandas
-pip install scikit-learn
-pip install python-igraph
-pip install openpyxl
-pip install pycairo
-pip install numpy
-pip install scipy
-pip install pillow
-pip install joblib
-pip install kneed
+
 ```
-4) Once the libraries are installed double click on the downloaded python file (RLV45) to run the program.  
+4) Once the libraries are installed double click on the downloaded python file  to run the program.  
 
 
 ## UI-Guide  
 
-### Train-and-Evaluate-ML-Models  
+
 
 
 
