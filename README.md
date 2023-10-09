@@ -1,7 +1,7 @@
 # Unravelling-Temporal-patterns-Real time
 
 The program has the capability to almost real time categorize time series data into various classes such as periodic, chaotic, noise, hyperchaotic, etc. This classification is performed in real-time using an Arduino Microcontroller to read data. Additionally, the program offers a visualization feature similar to an oscilloscope. It can take input data, such as for example temperature readings from any system, and directly predict its current behavior using a pre trained machine learning model.  
-For example, if one can use a model trained on period doubling and chaotic behavior classes this program could be used to find the rate of flow at which a dripping faucet goes through these stages.
+For example, if one can use a model trained on period doubling and chaotic behavior classes, this program could be used to find the rate of flow at which a dripping faucet goes through these stages.
 
 If the trained model also can distinguish period doubling etc then it should also be able to predict those as well. Models can be trained using https://github.com/am0032/Unravelling-Temporal-Patterns  
 
