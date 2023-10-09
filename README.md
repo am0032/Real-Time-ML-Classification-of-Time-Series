@@ -1,4 +1,4 @@
-# Unravelling-Temporal-patterns   
+# Unravelling-Temporal-patterns-Real time
 
 The program has the capability to real time categorize time series data into various classes such as periodic, chaotic, noise, hyperchaotic, etc. This classification is performed in real-time using an Arduino Microcontroller to read data. Additionally, the program offers a visualization feature similar to an oscilloscope. It can take input data, such as for example temperature readings from any system, and directly predict its current behavior using a pre trained machine learning model.  
 
