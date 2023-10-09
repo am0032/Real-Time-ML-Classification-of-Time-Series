@@ -42,6 +42,7 @@ Instructions on how to install the project.
 Please copy the commands below (using top right icon below), paste (right click ) them into Windows  command prompt window, and run (Enter) them to install the necessary dependencies :  
 
 ```bash
+pip install pyserial matplotlib scikit-learn numpy scipy pyrqa joblib kneed pandas python-igraph
 
 ```
 4) Once the libraries are installed double click on the downloaded python file  to run the program.  
