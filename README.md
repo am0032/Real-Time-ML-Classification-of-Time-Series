@@ -44,7 +44,10 @@ Please copy the commands below (using top right icon below), paste (right click 
 4) Once the libraries are installed double click on the downloaded python file  to run the program.  
 
 
-## Usage  
+## Usage   
+Connect Arduino to laptop and connect A0 pin of Arduino to the source signal  
+![image](https://github.com/am0032/Real-Time-ML-Classification-of-Time-Series/assets/123314532/a0684b34-be8b-4fbf-afa9-b788254284da)  
+
 
 
 
